@@ -1,29 +1,40 @@
 #About {
-  /* display: flex; */
   width: 100vw;
-  height: 75vh;
-  /* justify-content: flex-end; */
+  height: 85vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .About {
   /* background-image: linear-gradient(#364558, white); */
   display: flex;
   width: 100vw;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+}
+
+.AboutPic {
+  width: 30vw;
+  height: 60vh;
 }
 
 .AboutText {
   /* position: relative;
   right: 0px; */
-  width: 75vw;
+
+  width: 45vw;
+  height: 60vh;
   padding: 20px;
 }
 
-.About h1 {
-  font-size: 4vw;
+.AboutButton {
+  position: relative;
+  left: 50px;
+}
+#About h1 {
+  font-size: 3vw;
+  position: relative;
+  left: 40%;
 }
 
 @media (max-width: 760px) {
