@@ -1,0 +1,52 @@
+#Home {
+  display: flex;
+  width: 100vw;
+  height: 75vh;
+}
+
+.Landing {
+  background-image: url("../../media/undraw_developer_activity_bv83.svg");
+  background-color: #ffffff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-blend-mode: multiply;  */
+
+  /* display: table; */
+  position: relative;
+  left: -50px;
+  width: 125vw;
+  /* height: 75vh; */
+  padding: 0;
+  z-index: 9;
+  /* padding-left: 195px; */
+}
+
+.LandingText {
+  position: relative;
+  width: 60vw;
+  top: 95px;
+  left: 99px;
+  color: black;
+  z-index: 10;
+  /* text-align: left; */
+  /* padding-left: inherit;
+  text-align: ;
+  display: table-cell;
+  vertical-align: middle; */
+}
+
+.LandingText h1 {
+  font-size: 6vw;
+  transform: scale(1, 1);
+}
+
+.LandingText p {
+  font-size: 1.6vw;
+}
+
+@media (max-width: 760px) {
+  .Landing {
+    /* background-image: url("../../media/plant.jpg"); */
+    width: 100vw;
+  }
+}

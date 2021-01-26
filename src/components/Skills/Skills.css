@@ -1,0 +1,16 @@
+.Skills {
+  /* background-image: linear-gradient(white, #728192); */
+  background-color: white;
+  width: 100vw;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+  .Skills {
+    width: 100%;
+    padding-left: 0;
+  }
+}
