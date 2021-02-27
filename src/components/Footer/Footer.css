@@ -1,15 +1,13 @@
 .Footer {
-  background-color: aquamarine;
-  width: 100%;
-  /* position: fixed; */
-  bottom: 0;
+  /* background-color: #9c9ca1; */
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  /* bottom: 0; */
+}
 
-  /* padding-left: 200px; */
-
-  /* padding-top: 40px;
-  padding-bottom: 40px;  */
-  display: flex;
-  flex-direction: row;
+.Footer img {
+  height: 50px;
 }
 
 @media (max-width: 760px) {

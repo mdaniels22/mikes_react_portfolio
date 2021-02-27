@@ -1,0 +1,12 @@
+.SideSocial {
+  position: fixed;
+  top: 10%;
+  left: 1%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Icon {
+  padding: 10px;
+}

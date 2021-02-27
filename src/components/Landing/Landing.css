@@ -1,33 +1,23 @@
 #Home {
-  display: flex;
-  width: 100vw;
-  height: 85vh;
-  padding-left: 100px;
-}
-
-.Landing {
-  background-image: url("../../media/undraw_developer_activity_bv83.svg");
-  background-color: #ffffff;
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* background-blend-mode: multiply;  */
-
-  /* display: table; */
-
+  /* display: flex; */
   position: relative;
-  left: -50px;
-  width: 125vw;
-  height: 100%;
-  padding: 0;
-  z-index: 9;
-  /* padding-left: 195px; */
+  width: 100%;
+  height: 100vh;
+  /* padding-left: 100px; */
+  overflow: hidden;
 }
 
 .LandingText {
-  position: relative;
-  width: 60vw;
-  top: 95px;
-  left: 99px;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  position: absolute;
+
+  width: 50vw;
+  top: -26%;
+  left: 10%;
   color: black;
   height: 100%;
   z-index: 10;
@@ -37,6 +27,28 @@
   display: table-cell;
   vertical-align: middle; */
 }
+.Landing {
+  background-image: url("../../media/undraw_developer_activity_bv83.svg");
+  background-color: #ffffff;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  /* background-blend-mode: multiply;  */
+
+  /* display: table; */
+
+  position: relative;
+  left: 90px;
+
+  /* width: 125vw; */
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  z-index: 9;
+  /* padding-left: 195px; */
+}
 
 .LandingText h1 {
   font-size: 5vw;
@@ -45,6 +57,10 @@
 
 .LandingText p {
   font-size: 1.6vw;
+}
+
+.Button {
+  width: 20%;
 }
 
 @media (max-width: 760px) {

@@ -11,6 +11,7 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 // import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import SideSocial from "./components/SideSocial/SideSocial";
 
 import "./App.css";
 
@@ -18,7 +19,7 @@ const App = () => {
   return (
     <>
       <NavigationBar />
-
+      {/* <SideSocial /> */}
       <Landing
         name="Mike Daniels"
         message="I like coding.

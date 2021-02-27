@@ -1,3 +1,94 @@
-.Project {
-  padding: 20px;
+.Pic {
+  /* width: 250px;
+  height: 230px;
+  padding: 10px;
+  margin: 10px;*/
+
+  height: 230px;
+  width: 250px;
+  overflow: hidden;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+
+  /* transform: scale(1); */
+}
+
+.Pic:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  overflow: hidden;
+  /* transform: scale(1.1); */
+}
+
+.MyImage {
+  width: 100%;
+  height: 100%;
+  /* transform: scale(1); */
+  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+/* .MyImage:hover {
+  transform: scale(1.1);
+} */
+
+.carousel-item {
+  width: 450px;
+  height: 350px;
+}
+
+.carousel-item img {
+  width: 450px;
+  height: 350px;
+}
+
+.Overlays {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  height: 62px;
+  margin-top: 190px;
+  position: absolute;
+  font-weight: 600;
+  color: #e7e7e7;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  background: #2d2d2d;
+  width: 250px;
+  display: inline-block;
+  opacity: 0.9;
+  z-index: 4;
+
+  transition: margin-top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* WHEN HOVERING OVER PIC this is what changes with OVERLAYS. under .OVERLAY it has transition time */
+.Pic:hover .Overlays {
+  margin-top: 180px;
+}
+
+/* WHEN HOVERING OVER PIC this is what changes with MYIMAGE. under .MyImage it has transition time */
+.Pic:hover .MyImage {
+  transform: scale(1.1);
+}
+
+.show {
+  inset: auto auto -120px 0px;
+}
+.fade {
+  inset: auto auto -120px 0px;
+}
+
+.modal-backdrop {
+  height: 120vh;
+}
+
+.modal {
+  height: 125%;
 }

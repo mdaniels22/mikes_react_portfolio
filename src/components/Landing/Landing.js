@@ -6,13 +6,13 @@ import Button from "react-bootstrap/Button";
 
 const landing = (props) => (
   <div id="Home">
+    <div className="Landing"></div>
     <div className="LandingText">
       {" "}
       <h1>{props.name}</h1>
       <p>{props.message}</p>
-      <Button>Projects</Button>
+      <Button className="Button">Projects</Button>
     </div>
-    <Jumbotron className="Landing"> </Jumbotron>
   </div>
 );
 

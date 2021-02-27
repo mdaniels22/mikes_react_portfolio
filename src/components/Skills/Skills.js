@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Skill from "../Skill/Skill";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,7 +10,7 @@ import react_logo from "../../media/react-white-logo.com.svg";
 import node_express_logo from "../../media/node_express_logo.png";
 
 const Skills = () => (
-  <div id="Skills">
+  <Container fluid id="Skills">
     <h1>Skills</h1>
     <div className="Skills">
       {" "}
@@ -32,7 +32,7 @@ const Skills = () => (
             <Skill
               image={react_logo}
               title="FrontEnd Design"
-              description="I love to use React.js when I am creating and designing reusable components. An example of this is the Sandwich builder, along with other projects."
+              description="I love to use React.js when I am creating and designing reusable components. My portfolio as well as most of my projects are in react."
             />
           </Col>
           <Col>
@@ -45,7 +45,7 @@ const Skills = () => (
         </Row>
       </Container>
     </div>
-  </div>
+  </Container>
 );
 
 export default Skills;
