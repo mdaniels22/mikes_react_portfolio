@@ -22,7 +22,7 @@ const App = () => {
       {/* <SideSocial /> */}
       <Landing
         name="Mike Daniels"
-        message="I like coding.
+        message="I like to code.
          I use coding to create sites and applications.
         These sites and applications can be used online. Some may call me a Web Developer but I just call myself a Coder. "
       />

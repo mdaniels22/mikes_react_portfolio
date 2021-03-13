@@ -2,7 +2,7 @@
   background-color: white;
 
   z-index: 100;
-  /* position: fixed; */
+  position: relative;
   width: 70vw;
   /* height: 1vh; */
   /* left: 0; */
@@ -62,5 +62,13 @@
 @media (max-height: 437px) {
   .None {
     display: none;
+  }
+}
+
+@media (max-width: 569px) {
+  .Navigation {
+    background-color: white;
+    width: 100vw;
+    left: -10px;
   }
 }

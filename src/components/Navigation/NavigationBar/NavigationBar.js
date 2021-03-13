@@ -12,10 +12,10 @@ export default function NavigationBar(props) {
   const [show, setShow] = useState(false);
 
   return (
-    <Navbar className="Topbar" expand="lg">
+    <Navbar className="Topbar" expand="sm">
       {show ? <SideSocial /> : null}
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse>
+      <Navbar.Toggle />
+      <Navbar.Collapse aria-controls="basic-navbar-nav">
         <Nav className="Navigation Center" expand="lg" defaultActiveKey="#Home">
           <Nav>
             <Navbar.Brand className="Topbar" onClick={() => setShow(!show)}>
@@ -37,6 +37,7 @@ export default function NavigationBar(props) {
         </Nav>
       </Navbar.Collapse>
       <Nav className="Right">
+        {" "}
         <Button variant="info" size="sm">
           Hire Me
         </Button>
