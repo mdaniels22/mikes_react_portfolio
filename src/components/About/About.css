@@ -22,8 +22,6 @@
 
 .AboutText {
   position: relative;
-  /* right: 0px; */
-
   width: 45vw;
   height: 60vh;
   padding: 20px;
@@ -39,27 +37,43 @@
   left: 40%;
 }
 
-@media (max-width: 760px) {
-  .About {
-    width: 100%;
-    padding-left: 0;
-  }
-}
-
 /* Galaxy Fold */
-@media (max-width: 280px) {
-  .LandingText {
-    width: 63vw;
-    top: -15%;
+@media (min-width: 200px) and (max-width: 319px) {
+  #About {
+    padding: 1px;
   }
-  .LandingText h1 {
-    font-size: 17vw;
-  }
-  .LandingText p {
+  #About h1 {
     font-size: 6vw;
     font-weight: 700;
+    left: 35%;
   }
-  .Button {
-    width: 55%;
+  #About h2 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 35%;
+  }
+  #About p {
+    font-size: 5vw;
+    font-weight: 600;
+    left: 35%;
+  }
+  .AboutButton {
+    position: relative;
+    left: 15px;
+  }
+  .About {
+    flex-direction: column;
+  }
+  .AboutText {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .AboutPic {
+    width: 100vw;
+    height: 30vh;
+    padding-right: 1px;
   }
 }

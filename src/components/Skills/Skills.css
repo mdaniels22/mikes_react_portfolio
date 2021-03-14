@@ -35,10 +35,28 @@
 .SkillsCards {
   padding-right: 105px;
 }
+/* Galaxy Fold */
+@media (min-width: 200px) and (max-width: 319px) {
+  #Skills {
+    padding: 1px;
+  }
+  #Skills h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 35%;
+  }
 
-@media (max-width: 760px) {
-  .Skills {
-    width: 100%;
-    padding-left: 0;
+  #Skills p {
+    font-size: 5vw;
+    font-weight: 600;
+    left: 35%;
+  }
+  .SkillsText {
+    width: 100vw;
+    padding: 10px;
+  }
+  .SkillsCards {
+    width: 75%;
+    padding: 1px;
   }
 }

@@ -21,8 +21,12 @@
 }
 
 @media (max-width: 760px) {
-  .Projects {
-    width: 100%;
-    padding-left: 0;
+  #Projects {
+    padding: 0;
+  }
+  #Projects h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 35%;
   }
 }
