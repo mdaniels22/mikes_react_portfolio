@@ -77,3 +77,44 @@
     padding-right: 1px;
   }
 }
+
+/* iPhone 5 */
+@media (min-width: 200px) and (max-width: 319px) {
+  #About {
+    padding: 1px;
+  }
+  #About h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 35%;
+  }
+  #About h2 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 35%;
+  }
+  #About p {
+    font-size: 5vw;
+    font-weight: 600;
+    left: 35%;
+  }
+  .AboutButton {
+    position: relative;
+    left: 15px;
+  }
+  .About {
+    flex-direction: column;
+  }
+  .AboutText {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .AboutPic {
+    width: 100vw;
+    height: 30vh;
+    padding-right: 1px;
+  }
+}
