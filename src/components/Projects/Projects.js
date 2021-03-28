@@ -38,10 +38,10 @@ const projects = React.forwardRef((props, ref) => (
         siteLink="https://soundboard-react-app.herokuapp.com/"
       />
       <Project
-        projectTitle="Project 3"
+        projectTitle="Coming Soon"
         image1="https://via.placeholder.com/300x400"
-        description="making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-"
+        description="New Project Coming Soon!"
+
         githubLink=""
         siteLink=""
       />
