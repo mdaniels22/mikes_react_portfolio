@@ -10,7 +10,7 @@ import soundboarAppPic2 from "../../media/screenshots/soundboard_mobile_screensh
 const projects = React.forwardRef((props, ref) => (
   <Container fluid ref={ref} id="Projects">
     <h1>Projects</h1>
-    <p>All my projects can be found on my github, but here are a couple examples </p>
+    <p>All my projects can be found on my github, but here are a couple examples. These projects demonstrate the use pulling data from RESTful APIs and ways to interact with the end-user. </p>
     <div className="Projects">
       {" "}
       <Project
