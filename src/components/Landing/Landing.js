@@ -11,7 +11,7 @@ const landing = (props) => (
       {" "}
       <h1>{props.name}</h1>
       <p>{props.message}</p>
-      <Button className="Button">Projects</Button>
+      <Button className="Button" href="#Projects">Projects</Button>
     </div>
   </div>
 );
