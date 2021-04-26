@@ -36,7 +36,7 @@
   padding-right: 105px;
 }
 /* Galaxy Fold */
-@media (min-width: 200px) and (max-width: 319px) {
+@media (min-width: 200px) and (max-width: 318px) {
   #Skills {
     padding: 1px;
   }
@@ -54,6 +54,57 @@
   .SkillsText {
     width: 100vw;
     padding: 10px;
+  }
+  .SkillsCards {
+    width: 75%;
+    padding: 1px;
+  }
+}
+
+/* iPhone 5 */
+@media (min-width: 319px) and (max-width: 374px) {
+  #Skills {
+    padding: 10px;
+  }
+  #Skills h1 {
+    font-size: 7vw;
+    font-weight: 700;
+    left: 35%;
+  }
+
+  #Skills p {
+    font-size: 5vw;
+    font-weight: 600;
+    left: 30%;
+  }
+  .SkillsText {
+    width: 100vw;
+    padding: 5px;
+  }
+  .SkillsCards {
+    width: 75%;
+    padding: 1px;
+  }
+}
+/* iPhone 678 & iPhoneX */
+@media (min-width: 375px) and (max-width: 413px) {
+  #Skills {
+    padding: 10px;
+  }
+  #Skills h1 {
+    font-size: 7vw;
+    font-weight: 700;
+    left: 35%;
+  }
+
+  #Skills p {
+    font-size: 5vw;
+    font-weight: 600;
+    left: 30%;
+  }
+  .SkillsText {
+    width: 100vw;
+    padding: 5px;
   }
   .SkillsCards {
     width: 75%;

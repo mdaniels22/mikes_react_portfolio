@@ -38,9 +38,9 @@
 }
 
 /* Galaxy Fold */
-@media (min-width: 200px) and (max-width: 319px) {
+@media (min-width: 200px) and (max-width: 318px) {
   #About {
-    padding: 1px;
+    padding: 10px;
   }
   #About h1 {
     font-size: 6vw;
@@ -56,6 +56,48 @@
     font-size: 5vw;
     font-weight: 600;
     left: 35%;
+  }
+  .AboutButton {
+    position: relative;
+    left: 15px;
+  }
+  .About {
+    flex-direction: column;
+  }
+  .AboutText {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .AboutPic {
+    width: 100vw;
+    height: 30vh;
+    padding-right: 1px;
+  }
+}
+
+/* iPhone 5 */
+@media (min-width: 319px) and (max-width: 374px) {
+  #About {
+    padding: 10px;
+  }
+  #About h1 {
+    font-size: 7vw;
+    font-weight: 700;
+    left: 30%;
+  }
+  #About h2 {
+    font-size: 6vw;
+    font-weight: 700;
+    left: 30%;
+    padding: 5px;
+  }
+  #About p {
+    font-size: 4vw;
+    font-weight: 600;
+    left: 30%;
+    padding: 5px;
   }
   .AboutButton {
     position: relative;
@@ -78,25 +120,27 @@
   }
 }
 
-/* iPhone 5 */
-@media (min-width: 200px) and (max-width: 319px) {
+/* iPhone 678 & iphone x */
+@media (min-width: 375px) and (max-width: 413px) {
   #About {
-    padding: 1px;
+    padding: 10px;
   }
   #About h1 {
-    font-size: 6vw;
+    font-size: 7vw;
     font-weight: 700;
-    left: 35%;
+    left: 30%;
   }
   #About h2 {
     font-size: 6vw;
     font-weight: 700;
-    left: 35%;
+    left: 30%;
+    padding: 5px;
   }
   #About p {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 600;
-    left: 35%;
+    left: 30%;
+    padding: 5px;
   }
   .AboutButton {
     position: relative;
@@ -108,7 +152,7 @@
   .AboutText {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     padding: 10px;
   }
 
