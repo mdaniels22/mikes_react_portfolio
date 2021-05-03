@@ -1,5 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 import Project from "../Project/Project";
 import "./Projects.css";
 import exerciseAppPic1 from "../../media/screenshots/random-exercise-app_cropped.jpg";
@@ -10,8 +12,12 @@ import soundboarAppPic2 from "../../media/screenshots/soundboard_mobile_screensh
 const projects = React.forwardRef((props, ref) => (
   <Container fluid ref={ref} id="Projects">
     <h1>Projects</h1>
-    <p>All my projects can be found on my github, but here are a couple examples. These projects demonstrate the use pulling data from RESTful APIs and ways to interact with the end-user. </p>
-    <div className="Projects">
+    <Col>
+      All my projects can be found on my github, but here are a couple examples.
+      These projects demonstrate the use pulling data from RESTful APIs and ways
+      to interact with the end-user.{" "}
+    </Col>
+    <Container className="Projects">
       {" "}
       <Project
         projectTitle="Random Exercise Generator"
@@ -41,11 +47,10 @@ const projects = React.forwardRef((props, ref) => (
         projectTitle="Coming Soon"
         image1="https://via.placeholder.com/300x400"
         description="New Project Coming Soon!"
-
         githubLink=""
         siteLink=""
       />
-    </div>
+    </Container>
   </Container>
 ));
 

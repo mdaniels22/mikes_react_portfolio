@@ -1,16 +1,18 @@
 #Skills {
   position: relative;
   width: 100vw;
-  /* height: 85vh; */
-  padding-left: 100px;
+  display: inline-table;
+
+  /* padding-left: 100px;
   padding-right: 100px;
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
 }
 
 .Skills {
   /* background-image: linear-gradient(white, #728192); */
-  display: flex;
+  position: relative;
+  display: inline;
   flex-direction: column;
   width: 100vw;
   /* background-color: white;
@@ -27,10 +29,9 @@
   left: 45%;
 }
 
-.SkillsText {
-  width: 85vw;
-  /* padding-left: 5px; */
-}
+/* .SkillsText {
+   width: 85vw; 
+} */
 
 .SkillsCards {
   padding-right: 105px;
@@ -52,7 +53,7 @@
     left: 35%;
   }
   .SkillsText {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 10px;
   }
   .SkillsCards {
@@ -78,7 +79,7 @@
     left: 30%;
   }
   .SkillsText {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 5px;
   }
   .SkillsCards {
@@ -87,7 +88,7 @@
   }
 }
 /* iPhone 678 & iphoneX */
-@media (min-width: 375px) and (max-width: 413px) {
+@media (min-width: 375px) and (max-width: 700px) {
   #Skills {
     padding: 10px;
   }
@@ -98,12 +99,12 @@
   }
 
   #Skills p {
-    font-size: 5vw;
-    font-weight: 600;
+    /* font-size: 5vw;
+    font-weight: 600; */
     left: 30%;
   }
   .SkillsText {
-    width: 100vw;
+    /* width: 100vw; */
     padding: 5px;
   }
   .SkillsCards {

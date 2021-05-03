@@ -20,15 +20,15 @@ function About(props) {
   };
 
   return (
-    <Container fluid id="About">
+    <Container id="About">
       <h1>About Me</h1>
-      <div className="About">
-        <div>
-          <Image className="AboutPic" src={aboutPic} />
-        </div>
-        <div className="AboutText">
+      <Container className="About">
+        <Col>
+          <Image className="AboutPic" src={aboutPic} fluid />
+        </Col>
+        <Col className="AboutText">
           <h2>Hi, I'm Mike and Develop for the Web</h2>
-          <p>
+          <Col>
             I've been in the Tech industry for over 10 years. I began in tech
             support and worked up to Systems Technician. Support roles didn't
             fulfill my need to create. I figured I can use my ability to problem
@@ -42,7 +42,7 @@ function About(props) {
             JavaScript, React.js, and Node.js with Express.js. Bootstrap, npm,
             Git, and GIMP are some of the tools I use and I've had exprerience
             coding with C#, C++, and Java.
-          </p>
+          </Col>
           {/* <Col>Name: {props.name}</Col>
         <Col>From: {props.location}</Col>
         <Col>Email: {props.email}</Col> */}
@@ -67,8 +67,8 @@ function About(props) {
               <Button href="#Projects">Projects</Button>
             </Col>
           </Row>
-        </div>
-      </div>
+        </Col>
+      </Container>
     </Container>
   );
 }

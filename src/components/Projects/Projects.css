@@ -1,10 +1,13 @@
 #Projects {
   background-color: white;
+  position: relative;
+  display: inline-table;
   width: 100vw;
-  padding-left: 100px;
+
+  /* padding-left: 100px;
   padding-right: 100px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 40px; */
 }
 
 #Projects h1 {

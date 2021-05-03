@@ -11,14 +11,13 @@ import node_express_logo from "../../media/node_express_logo.png";
 
 const Skills = () => (
   <Container fluid id="Skills">
-    <h1>Skills</h1>
-    <div className="Skills">
-      {" "}
-      <p className="SkillsText">
+    <Container className="Skills">
+      <h1>Skills</h1>
+      <Col className="SkillsText">
         I have experience with several coding tools and language, such as HTML,
         CSS, Javascript, C#, Java, React, NodeJs, VB.NET, and Bootstrap. My
         current stack includes HTML5, CSS3, JavaSript, React.js and Express.js.
-      </p>
+      </Col>
       <Container fluid>
         <Row className="SkillsCards">
           <Col>
@@ -44,7 +43,7 @@ const Skills = () => (
           </Col>
         </Row>
       </Container>
-    </div>
+    </Container>
   </Container>
 );
 
